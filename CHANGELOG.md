@@ -1,5 +1,31 @@
 ## Parse Dashboard Changelog
 
+### NEXT RELEASE
+
+* _Contributing to this repo? Add info about your change here to be included in next release_
+
+### 1.0.21
+
+* Fix: Use mountPath for all log in and log out redirects
+
+### 1.0.20
+
+* New: Form based login page instead of basic auth (#562), thanks to [Jeremy Louie](https://github.com/JeremyPlease)
+* Fix: Can't send push to specific user (#570), thanks to [Dan VanWinkle](https://github.com/dvanwinkle)
+* Fix: Download link in footer menu (#567), thanks to [Pavel Ivanov](https://github.com/pivanov)
+
+
+### 1.0.19
+
+* New: Support for trusting proxies w/ HTTPS
+* New: Support for filtering string with `ends with`
+* New: View parse-server based jobs
+* New: Button to add rows from browser toolbar
+* New: Support for encrypted passwords
+* New: Support for sorting by `createdAt`
+* Improvement: Push audiences support
+* Fix: Calendar dates support
+
 ### 1.0.18
 
 * Fix: Revert history change that was causing issues when mounting on express
